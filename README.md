@@ -3,7 +3,9 @@
 ## Model
 Faster RCNN is an object detection architecture presented by Ross Girshick, Shaoqing Ren, Kaiming He and Jian Sun in 2015, and is one of the famous object detection architectures that uses convolution neural networks. 
 
-In this project, the standard feature extractor in faster RCNN was replaced with feature pyramid network (FPN).
+In this project, the standard feature extractor in faster RCNN was replaced with feature pyramid network (FPN). The following link will be useful for understanding faster R-CNN with feature pyramid networks.
+
+https://jonathan-hui.medium.com/understanding-feature-pyramid-networks-for-object-detection-fpn-45b227b9106c
 
 ## Dataset
 The dataset that was used in this project is the Udacity Self Driving Car Dataset which is an open-source dataset provided by Udacity, modified by Roboflow. The dataset includes driving in Mountain View California and neighboring cities during daylight conditions. It contains 97,942 labels across 11 classes and 15,000 images collected from a Point Grey research camera running at full resolution of 1920x1200 at 2 hz. The dataset was annotated by CrowdAI using a combination of machine learning and humans. There are 1,720 null examples (images with no labels). This dataset comprises of 11 classes namely car, pedestrian, traffic lightred, traffic light-green, truck, biker, traffic light, traffic lightred left, traffic light-green left, traffic light-yellow and traffic light- yellow left.
